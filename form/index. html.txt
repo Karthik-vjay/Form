@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style3.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="regform">
+        <h2>Sign Up</h2>
+            <form action="signup page.html" target="_blank">
+                <div class="input">
+                    <label class="textlbl" for="name">User Name</label>
+                    <input type="name" name="name" id="name" required>
+                </div>
+                <div class="input">
+                    <label class="textlbl"   for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="input">
+                     <label class="textlbl" for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                 </div>
+                 <div class="radio">
+                    <input type="radio" name="gender" id="male" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female"  value="female" required>
+                    <label for="female">Female</label>
+                </div>
+                <div class="btn">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+     </div>
+</body>
+</html>
